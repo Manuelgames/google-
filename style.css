@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    width: 100%;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*HEADER*/
+.header-container{
+    display: block;
+    width: 100%;
+    height: 47px;
+}
+.container-navx{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 10px;
+}
+/*NAVEGACION IZQUIERDA*/
+.navx-left{
+    padding: 9px 18px;
+}
+
+.navx-left a{
+    padding: 5px;
+    text-decoration: none;
+}
+/*NAVEGACION DERECHA*/
+.navx-rigth{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 4px;
+    height: 32px;
+    width: 80px;
+}
+.navx-rigth svg {
+    width: 30px;
+    height: 30px;
+}
+.navx-rigth img{
+    height: 30px;
+    border-radius: 50%;
+}
+
+
+/*MAIN*/
+.main-container{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+/*seccion  de busqueda*/
+.container-google{
+    min-height: 350px;
+}
+
+
+/*LOGO DE GOOGLE*/
+.google-img {
+    display: flex;
+    width: 100%;
+    padding: 5% 5% 3% 5%;
+    justify-content: center;
+}
+.google-img img{
+    width: 271px;
+    height: 91px;
+}
+
+
+/*INPUT DE GOOGLE*/
+.google-input{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+}
+
+/*ENCIERRA ELEMENTOS DENTRO DE UNA LINEA*/
+.google-linea{
+    display: flex;
+    height: 40px;
+    width: 550px;
+    border: 1px solid gray;
+    border-radius: 50px;
+    justify-content: space-around;
+    padding: 10px 5px;
+}
+/*CAJA DE TEXTO*/
+.google-input input{
+    display: flex;
+    height: 23px;
+    width: 450px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+/*Lupa de busqueda img*/
+.google-input img{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    justify-content: flex-start;
+    align-items: center;
+}
+/*IMG DE MICROFONO*/
+.google-linea .microfono {
+    height: 25px;
+    width: 23px;
+}
+
+.footer-principal{
+
+}
+
+/*datos de finales de la pagina*/
+.datospagina{
+    width: 100%;
+    background-color: #eef0f6;
+}
+.p{
+    width: 100%;
+    height: 30px;
+    color: #70757a;
+}
+
+
+
+
+
+
